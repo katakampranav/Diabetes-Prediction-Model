@@ -10,7 +10,6 @@ This project utilizes machine learning to predict the risk of diabetes based on 
 - [Features](#features)
 - [Model Evaluation](#model-evaluation)
 - [Recommendations](#recommendations)
-- [Contributing](#contributing)
 
 ## Project Description
 This project predicts whether a person is at risk of diabetes based on their health conditions, using a variety of machine learning algorithms including:
