@@ -65,8 +65,6 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
    streamlit run app.py
    ```
 
-4. The app will be available on `http://localhost:8501`.
-
 ## Features
 - **User Inputs**: Users can enter details like age, gender, and health-related symptoms (e.g., polyuria, sudden weight loss).
 - **Prediction**: After submitting the form, the app will display whether the person is at risk of diabetes.
