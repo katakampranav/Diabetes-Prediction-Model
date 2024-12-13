@@ -55,7 +55,7 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
 ### Running the App:
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/diabetes-risk-prediction.git
+   https://github.com/katakampranav/Diabetes-Prediction-Model
    ```
 
 2. Install the necessary packages (listed in `requirements.txt`).
