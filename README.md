@@ -10,7 +10,6 @@ This project utilizes machine learning to predict the risk of diabetes based on 
 - [Features](#features)
 - [Model Evaluation](#model-evaluation)
 - [Recommendations](#recommendations)
-- [Contributing](#contributing)
 
 ## Project Description
 This project predicts whether a person is at risk of diabetes based on their health conditions, using a variety of machine learning algorithms including:
@@ -56,7 +55,7 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
 ### Running the App:
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/diabetes-risk-prediction.git
+   https://github.com/katakampranav/Diabetes-Prediction-Model
    ```
 
 2. Install the necessary packages (listed in `requirements.txt`).
@@ -65,8 +64,6 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
    ```bash
    streamlit run app.py
    ```
-
-4. The app will be available on `http://localhost:8501`.
 
 ## Features
 - **User Inputs**: Users can enter details like age, gender, and health-related symptoms (e.g., polyuria, sudden weight loss).
