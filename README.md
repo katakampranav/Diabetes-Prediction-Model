@@ -15,7 +15,7 @@ This project utilizes machine learning to predict the risk of diabetes based on 
 This project predicts whether a person is at risk of diabetes based on their health conditions, using a variety of machine learning algorithms including:
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
-- Support Vector Machine (SVM)
+- Support Vector Machine (SVM) with Linear and RBF kernels
 - Random Forest
 - Naive Bayes
 - Decision Tree
@@ -41,7 +41,7 @@ The model was trained on a dataset containing information about various health p
 - **Decision Tree**
 - **Random Forest**
 
-After training, the models were evaluated using accuracy metrics, and the **Support Vector Machine (SVM)** model showed the highest accuracy and was selected for deployment.
+After training, the models were evaluated using accuracy metrics, and the **Random Forest** model showed the highest accuracy and was selected for deployment.
 
 ## How to Run the App
 
@@ -55,7 +55,7 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
 ### Running the App:
 1. Clone this repository to your local machine:
    ```bash
-   https://github.com/katakampranav/Diabetes-Prediction-Model
+   git clone https://github.com/katakampranav/Diabetes-Prediction-Model.git
    ```
 
 2. Install the necessary packages (listed in `requirements.txt`).
@@ -77,29 +77,29 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
 ## Model Evaluation
 The models were evaluated using accuracy metrics, and the results are summarized below:
 
-| Classifier          | Accuracy   |
-|---------------------|------------|
-| Logistic Regression | 86.27%     |
-| KNN                 | 70.59%     |
-| SVM (Linear)        | 94.12%     |
-| Kernel SVM          | 74.51%     |
-| Naive Bayes         | 88.24%     |
-| Decision Tree       | 84.31%     |
-| Random Forest       | 90.20%     |
+| Classifier             | Accuracy   |
+|------------------------|------------|
+| Logistic Regression     | 90.20%     |
+| KNN                    | 76.47%     |
+| SVM (Linear Kernel)     | 86.27%     |
+| SVM (RBF Kernel)        | 88.24%     |
+| Naive Bayes            | 88.24%     |
+| Decision Tree          | 78.43%     |
+| Random Forest          | 96.08%     |
 
-### Best Model: **SVM (Linear)** with an accuracy of **94.12%**.
+### Best Model: **Random Forest** with an accuracy of **96.08%**.
 
 ## Recommendations
 Based on the accuracy results:
-- **SVM** is the best model and is recommended for deployment.
-- **Random Forest** and **Naive Bayes** are also strong contenders.
-- **KNN** and **Kernel SVM** show lower performance and are not recommended for production.
+- **Random Forest** is the best model and is recommended for deployment.
+- **SVM (RBF Kernel)** and **Naive Bayes** are also strong contenders.
+- **KNN** and **Decision Tree** show lower performance and are not recommended for production.
 
 ## Author
 
-This Comment Toxicity Model was developed by :
--	[@katakampranav](https://github.com/katakampranav)
--	Repository : https://github.com/katakampranav/Diabetes-Prediction-Model
+This Diabetes Risk Prediction Model was developed by:
+- [@katakampranav](https://github.com/katakampranav)
+- Repository: [https://github.com/katakampranav/Diabetes-Prediction-Model](https://github.com/katakampranav/Diabetes-Prediction-Model)
 
 ## Feedback
 
