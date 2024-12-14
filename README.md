@@ -72,6 +72,7 @@ After training, the models were evaluated using accuracy metrics, and the **Rand
 
 ## Output Images
 ![Screenshot 2024-12-14 155753](https://github.com/user-attachments/assets/dbc03ca5-2563-41a4-ad39-ab04a56a4884)
+![image](https://github.com/user-attachments/assets/28430da6-7c46-4956-892d-4f521ac5ac9f)
 ![image](https://github.com/user-attachments/assets/0c3ede38-3265-4181-9343-1c71196f31ae)
 
 ## Model Evaluation
