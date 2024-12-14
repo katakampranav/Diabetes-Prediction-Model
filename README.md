@@ -70,6 +70,10 @@ After training, the models were evaluated using accuracy metrics, and the **Supp
 - **Prediction**: After submitting the form, the app will display whether the person is at risk of diabetes.
 - **Real-time Results**: Predictions are displayed immediately based on the input data.
 
+## Output Images
+![Screenshot 2024-12-14 155753](https://github.com/user-attachments/assets/dbc03ca5-2563-41a4-ad39-ab04a56a4884)
+![image](https://github.com/user-attachments/assets/0c3ede38-3265-4181-9343-1c71196f31ae)
+
 ## Model Evaluation
 The models were evaluated using accuracy metrics, and the results are summarized below:
 
